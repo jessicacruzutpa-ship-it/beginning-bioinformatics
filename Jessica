@@ -1,0 +1,7 @@
+echo "# beginning-bioinformatics" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jessicacruzutpa-ship-it/beginning-bioinformatics.git
+git push -u origin main
